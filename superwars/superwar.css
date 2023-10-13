@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+.whole{
+    display: flex;
+    justify-content: space-around;
+}
+.heros, .villans{
+    display: grid;
+    grid-template-columns: repeat(3, 160px);
+    grid-template-rows: repeat(3, 220px);
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 2px rgb(56, 55, 55);
+    padding-top: 40px;
+
+}
+.box{
+    border: grey solid 1px;
+    border-radius: 15px;
+    height: 200px;
+    margin: 8px;
+}
+.score{
+    margin-top: 22%;
+    font-size: 25px;
+}
+h2{
+    margin-top: 6px;
+}
